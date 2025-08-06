@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsitive Box - Mở Hộp Niềm Vui, Mỗi Ngày</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+        /* Brand Colors */
+        .brand-text-dark { color: #073B4C; }
+        .brand-text-blue { color: #118AB2; }
+        .brand-text-green { color: #06D6A0; }
+        .brand-text-yellow { color: #FFD166; }
+        .brand-text-coral { color: #FF6B6B; }
+
+        .brand-bg-dark { background-color: #073B4C; }
+        .brand-bg-blue { background-color: #118AB2; }
+        .brand-bg-green { background-color: #06D6A0; }
+        .brand-bg-yellow { background-color: #FFD166; }
+        .brand-bg-coral { background-color: #FF6B6B; }
+
+        .brand-border-coral { border-color: #FF6B6B; }
+
+        .cta-button {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            border-radius: 9999px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-black brand-text-dark">Pawsitive Box</a>
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="#how-it-works" class="text-gray-600 hover:brand-text-coral transition">Cách hoạt động</a>
+                <a href="#whats-inside" class="text-gray-600 hover:brand-text-coral transition">Bên trong hộp</a>
+                <a href="#pricing" class="text-gray-600 hover:brand-text-coral transition">Gói dịch vụ</a>
+            </nav>
+            <a href="#pricing" class="cta-button brand-bg-coral text-white">Đăng ký ngay</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="relative bg-white pt-16 pb-24 md:pt-24 md:pb-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-black brand-text-dark leading-tight">
+                    Mở Hộp Niềm Vui, <br class="hidden md:block"> Mỗi Ngày.
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-lg text-gray-600">
+                    Dịch vụ hộp quà bí mật hàng tháng dành riêng cho thú cưng của bạn. Mỗi chiếc hộp là một cuộc phiêu lưu mới với những sản phẩm được tuyển chọn kỹ lưỡng bởi chuyên gia.
+                </p>
+                <a href="#pricing" class="cta-button brand-bg-coral text-white mt-10 text-lg px-10 py-4">Khám phá ngay</a>
+                <div class="mt-12">
+                    <img src="https://images.unsplash.com/photo-1583337130417-2346a5be24c1?q=80&w=1470&auto=format&fit=crop" 
+                         alt="[Ảnh một chú chó Corgi vui vẻ bên cạnh hộp quà]" 
+                         class="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl"
+                         onerror="this.onerror=null;this.src='https://placehold.co/1200x600/FFD166/073B4C?text=Pawsitive+Box';">
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black brand-text-dark">Chỉ với 3 bước đơn giản</h2>
+                    <p class="mt-4 text-gray-600 max-w-xl mx-auto">Hành trình mang lại niềm vui cho "boss" chưa bao giờ dễ dàng hơn thế.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-12 text-center">
+                    <!-- Step 1 -->
+                    <div class="flex flex-col items-center">
+                        <div class="brand-bg-green text-white w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                            <i data-lucide="box-select" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold brand-text-dark mb-2">1. Chọn gói hộp</h3>
+                        <p class="text-gray-600">Chọn gói dịch vụ phù hợp nhất với bạn và cung cấp một vài thông tin về thú cưng.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="flex flex-col items-center">
+                        <div class="brand-bg-yellow text-white w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                            <i data-lucide="truck" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold brand-text-dark mb-2">2. Nhận hộp bất ngờ</h3>
+                        <p class="text-gray-600">Chúng tôi sẽ giao một chiếc hộp đầy ắp những món quà bất ngờ đến tận cửa nhà bạn mỗi tháng.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="flex flex-col items-center">
+                        <div class="brand-bg-blue text-white w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                            <i data-lucide="party-popper" class="w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-bold brand-text-dark mb-2">3. Cùng "boss" khám phá</h3>
+                        <p class="text-gray-600">Tận hưởng khoảnh khắc "đập hộp" vui vẻ và xem thú cưng của bạn hạnh phúc với những món quà mới.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Inside Section -->
+        <section id="whats-inside" class="bg-white py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-black brand-text-dark">Bên trong mỗi chiếc hộp là gì?</h2>
+                        <p class="mt-4 text-lg text-gray-600">Mỗi chiếc hộp Pawsitive Box là một kho báu được tuyển chọn kỹ lưỡng, đảm bảo mang lại giá trị và niềm vui vượt trội.</p>
+                        <ul class="mt-8 space-y-4">
+                            <li class="flex items-start">
+                                <i data-lucide="bone" class="w-8 h-8 brand-text-coral mr-4 flex-shrink-0"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">Đồ ăn vặt cao cấp</h4>
+                                    <p class="text-gray-600">Từ 2-3 loại snack dinh dưỡng, an toàn từ các thương hiệu uy tín trong và ngoài nước.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="gem" class="w-8 h-8 brand-text-green mr-4 flex-shrink-0"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">Đồ chơi sáng tạo</h4>
+                                    <p class="text-gray-600">Ít nhất 2 món đồ chơi độc đáo, giúp thú cưng của bạn vận động và phát triển trí não.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="sparkles" class="w-8 h-8 brand-text-yellow mr-4 flex-shrink-0"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">Vật dụng chăm sóc</h4>
+                                    <p class="text-gray-600">Một sản phẩm chăm sóc đặc biệt như dầu dưỡng lông, khăn lau, hoặc dụng cụ vệ sinh.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="https://images.unsplash.com/photo-1621360841013-c7683c659ec5?q=80&w=870&auto=format&fit=crop" alt="[Ảnh đồ chơi cho chó]" class="rounded-xl shadow-lg transform hover:scale-105 transition duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x400/FFD166/073B4C?text=Đồ+chơi';">
+                        <img src="https://images.unsplash.com/photo-1599428989069-b9004e6e6187?q=80&w=870&auto=format&fit=crop" alt="[Ảnh đồ ăn vặt cho chó]" class="rounded-xl shadow-lg transform hover:scale-105 transition duration-300 mt-8" onerror="this.onerror=null;this.src='https://placehold.co/400x400/06D6A0/FFFFFF?text=Đồ+ăn+vặt';">
+                        <img src="https://images.unsplash.com/photo-1556975253-78de51621943?q=80&w=870&auto=format&fit=crop" alt="[Ảnh một chú mèo đang chơi]" class="rounded-xl shadow-lg transform hover:scale-105 transition duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x400/118AB2/FFFFFF?text=Niềm+vui';">
+                        <img src="https://images.unsplash.com/photo-1548681528-6a5c45b66b42?q=80&w=781&auto=format&fit=crop" alt="[Ảnh một chú mèo xinh đẹp]" class="rounded-xl shadow-lg transform hover:scale-105 transition duration-300 mt-8" onerror="this.onerror=null;this.src='https://placehold.co/400x400/FF6B6B/FFFFFF?text=Bất+ngờ';">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Social Proof / Testimonials -->
+        <section class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black brand-text-dark">#KhoanhKhacPawsitive</h2>
+                    <p class="mt-4 text-gray-600 max-w-xl mx-auto">Hàng ngàn "phụ huynh" đã tin tưởng và chia sẻ khoảnh khắc hạnh phúc của mình.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Testimonial 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-gray-600">"Từ ngày có Pawsitive Box, tháng nào Bắp nhà mình cũng có đồ chơi mới. Mình thì nhàn hơn hẳn không phải nghĩ xem mua gì. 10 điểm!"</p>
+                        <div class="flex items-center mt-6">
+                            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=774&auto=format&fit=crop" alt="[Ảnh đại diện khách hàng]" class="w-12 h-12 rounded-full mr-4" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=L';">
+                            <div>
+                                <p class="font-bold">Lan Anh</p>
+                                <p class="text-sm text-gray-500">Chủ của Bắp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-gray-600">"Mình rất bất ngờ với chất lượng sản phẩm. Toàn đồ xịn mà tính ra lại rẻ hơn mua lẻ. Miu nhà mình mê tít mấy món snack."</p>
+                        <div class="flex items-center mt-6">
+                            <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?q=80&w=880&auto=format&fit=crop" alt="[Ảnh đại diện khách hàng]" class="w-12 h-12 rounded-full mr-4" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=H';">
+                            <div>
+                                <p class="font-bold">Hoàng Minh</p>
+                                <p class="text-sm text-gray-500">Chủ của Miu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <p class="text-gray-600">"Dịch vụ tuyệt vời! Hộp được gói rất đẹp, giao hàng nhanh. Cảm giác mỗi tháng nhận quà cùng 'boss' vui lắm."</p>
+                        <div class="flex items-center mt-6">
+                           <img src="https://images.unsplash.com/photo-1542909168-82c3e72fd3e7?q=80&w=882&auto=format&fit=crop" alt="[Ảnh đại diện khách hàng]" class="w-12 h-12 rounded-full mr-4" onerror="this.onerror=null;this.src='https://placehold.co/48x48/cccccc/ffffff?text=T';">
+                            <div>
+                                <p class="font-bold">Trang</p>
+                                <p class="text-sm text-gray-500">Chủ của Kem</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="bg-white py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black brand-text-dark">Chọn gói hộp phù hợp với bạn</h2>
+                    <p class="mt-4 text-gray-600 max-w-xl mx-auto">Cam kết không có bất kỳ chi phí ẩn nào. Bạn có thể hủy đăng ký bất cứ lúc nào.</p>
+                </div>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                    <!-- Plan 1 -->
+                    <div class="w-full max-w-sm bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
+                        <h3 class="text-2xl font-bold brand-text-dark">Dùng thử</h3>
+                        <p class="text-4xl font-black brand-text-blue my-4">399.000<span class="text-lg font-medium">đ/tháng</span></p>
+                        <p class="text-gray-500 h-12">Thanh toán hàng tháng. Phù hợp để trải nghiệm.</p>
+                        <a href="#" class="cta-button bg-white text-gray-800 border border-gray-300 mt-6 w-full">Bắt đầu ngay</a>
+                    </div>
+                    <!-- Plan 2 - Best Value -->
+                    <div class="w-full max-w-sm brand-bg-dark text-white p-10 rounded-2xl text-center shadow-2xl transform md:scale-110">
+                        <span class="brand-bg-yellow text-gray-900 text-xs font-bold px-3 py-1 rounded-full uppercase">Tiết kiệm nhất</span>
+                        <h3 class="text-2xl font-bold mt-4">Tiết Kiệm</h3>
+                        <p class="text-4xl font-black brand-text-yellow my-4">349.000<span class="text-lg font-medium">đ/tháng</span></p>
+                        <p class="text-gray-300 h-12">Thanh toán mỗi 6 tháng. Tiết kiệm hơn 10%!</p>
+                        <a href="#" class="cta-button brand-bg-coral text-white mt-6 w-full">Chọn gói này</a>
+                    </div>
+                    <!-- Plan 3 -->
+                    <div class="w-full max-w-sm bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
+                        <h3 class="text-2xl font-bold brand-text-dark">Cơ bản</h3>
+                        <p class="text-4xl font-black brand-text-blue my-4">369.000<span class="text-lg font-medium">đ/tháng</span></p>
+                        <p class="text-gray-500 h-12">Thanh toán mỗi 3 tháng. Lựa chọn phổ biến.</p>
+                        <a href="#" class="cta-button bg-white text-gray-800 border border-gray-300 mt-6 w-full">Bắt đầu ngay</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-20 md:py-28">
+             <div class="container mx-auto px-6 max-w-3xl">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-black brand-text-dark">Câu hỏi thường gặp</h2>
+                </div>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-bold text-lg">Hộp có phù hợp với thú cưng của tôi không?</h3>
+                        <p class="text-gray-600 mt-2">Chắc chắn rồi! Khi đăng ký, bạn sẽ cung cấp thông tin về loại thú cưng (chó/mèo), giống loài và kích thước. Chúng tôi sẽ cá nhân hóa chiếc hộp để đảm bảo mọi sản phẩm đều phù hợp.</p>
+                    </div>
+                    <div class="border-t border-gray-200 pt-6">
+                        <h3 class="font-bold text-lg">Tôi có thể hủy đăng ký bất cứ lúc nào không?</h3>
+                        <p class="text-gray-600 mt-2">Tất nhiên. Bạn có toàn quyền kiểm soát gói đăng ký của mình và có thể hủy bất cứ lúc nào mà không mất thêm chi phí. </p>
+                    </div>
+                    <div class="border-t border-gray-200 pt-6">
+                        <h3 class="font-bold text-lg">Khi nào tôi sẽ nhận được hộp?</h3>
+                        <p class="text-gray-600 mt-2">Hộp Pawsitive Box sẽ được vận chuyển vào tuần thứ hai của mỗi tháng. Bạn sẽ nhận được email thông báo khi hộp được gửi đi.</p>
+                    </div>
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="brand-bg-dark text-white">
+        <div class="container mx-auto px-6 py-12 text-center">
+            <p class="text-3xl font-black">Sẵn sàng mang lại niềm vui cho "boss"?</p>
+            <a href="#pricing" class="cta-button brand-bg-coral text-white mt-8 text-lg px-10 py-4">Đăng ký ngay hôm nay</a>
+            <div class="mt-12 flex justify-center space-x-6">
+                <a href="#" class="hover:opacity-80"><i data-lucide="instagram" class="w-6 h-6"></i></a>
+                <a href="#" class="hover:opacity-80"><i data-lucide="facebook" class="w-6 h-6"></i></a>
+                <a href="#" class="hover:opacity-80"><i data-lucide="twitter" class="w-6 h-6"></i></a>
+            </div>
+            <p class="mt-8 text-sm text-gray-400">&copy; 2025 Pawsitive Box. Mọi quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
